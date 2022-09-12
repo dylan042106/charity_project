@@ -40,10 +40,38 @@ ul {
 }
 
 #home {
+  color: black;
+  text-decoration: none;
+}
+#home:hover {
+  color: rgb(28, 28, 28);
+}
+#home:active {
+  color: black;
+}
+
+#about_us {
   color: white;
   text-decoration: none;
 }
-
-#home:hover {
+#about_us:hover {
+  color: rgb(28, 28, 28);
+}
+#about_us:active {
   color: black;
+}
+
+#donateLink {
+  color: white;
+  text-decoration: none;
+}
+#donateLink:hover {
+  color: rgb(28, 28, 28);
+}
+#donateLink:active {
+  color: black;
+}
+
+.author_link {
+  color: white;
 }
