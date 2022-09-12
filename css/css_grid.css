@@ -1,0 +1,61 @@
+.container {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-template-rows: 7em 30em 30em 10em;
+}
+
+.top_nav_bar {
+  grid-column: 1 / -1;
+  grid-row: 1 / 2;
+}
+.main_image {
+  grid-column: 1 / -1;
+  grid-row: 2 / 3;
+}
+.content {
+  grid-column: 1 / -1;
+  grid-row: 3/ 4;
+}
+.bottomContent {
+  grid-column: 1 / -1;
+  grid-row: 4 / -1;
+}
+
+.nav_grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+}
+
+.logo_link {
+  padding: 0.7em;
+  grid-column-start: 1;
+  grid-column-end: 2;
+}
+.home_link {
+  color: white;
+  font-size: 1.8em;
+  padding-top: 1.5em;
+  grid-column: 2 / 3;
+}
+
+.about_us_link {
+  color: white;
+  font-size: 1.8em;
+  padding-top: 1.5em;
+  grid-column: 3 / 4;
+}
+
+.donate_link {
+  color: white;
+  font-size: 1.8em;
+  padding-top: 1.5em;
+  grid-column: 4 / 5;
+}
+
+.author_link {
+  color: white;
+  font-size: 1.8em;
+  padding-top: 1.5em;
+  grid-column: 5 / -1;
+  text-decoration: line-through;
+}

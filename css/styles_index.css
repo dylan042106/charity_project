@@ -1,0 +1,49 @@
+.container {
+  margin: -1em -1em;
+}
+
+.top_nav_bar {
+  background-color: #00bfff;
+  position: fixed;
+  width: 105%;
+  height: 7em;
+  border-bottom: 2px solid black;
+}
+.main_image {
+  text-align: center;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+}
+.content {
+  padding: 3em 0em;
+  text-align: center;
+  border-top: 2px solid black;
+}
+.bottomContent {
+  padding: 3em 0em;
+  text-align: center;
+  border: 1px solid black;
+}
+.dog_image {
+  width: 100%;
+  height: 30em;
+}
+
+ul {
+  display: inline;
+}
+
+#logo {
+  float: left;
+  width: 14em;
+  height: 5.9em;
+}
+
+#home {
+  color: white;
+  text-decoration: none;
+}
+
+#home:hover {
+  color: black;
+}
