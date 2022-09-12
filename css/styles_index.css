@@ -15,7 +15,7 @@
   border-bottom: 2px solid black;
 }
 .content {
-  padding: 3em 0em;
+  padding-top: 2em;
   text-align: center;
   border-top: 2px solid black;
 }
@@ -39,39 +39,58 @@ ul {
   height: 5.9em;
 }
 
-#home {
-  color: black;
-  text-decoration: none;
-}
-#home:hover {
-  color: rgb(28, 28, 28);
-}
-#home:active {
-  color: black;
-}
-
-#about_us {
+#about_us_nav_link {
   color: white;
   text-decoration: none;
 }
-#about_us:hover {
-  color: rgb(28, 28, 28);
-}
-#about_us:active {
+#about_us_nav_link:hover {
   color: black;
 }
 
-#donateLink {
+#donate_nav_link {
   color: white;
   text-decoration: none;
 }
-#donateLink:hover {
-  color: rgb(28, 28, 28);
-}
-#donateLink:active {
+#donate_nav_link:hover {
   color: black;
 }
 
 .author_link {
   color: white;
+}
+
+.about_us_container {
+  width: 90%;
+  height: auto;
+  margin: auto;
+  margin-top: 7em;
+  background-color: #13c3fe;
+  border-radius: 1em;
+}
+.about_us_container > #header {
+  color: white;
+  padding: 1em;
+  font-size: 5em;
+  font-weight: bold;
+}
+
+.paragraph_container {
+  color: white;
+  margin: auto;
+  margin-top: -2em;
+  margin-bottom: 3em;
+  padding: 1.2em;
+  font-family: "Segoe UI", Verdana, sans-serif;
+  font-size: 2em;
+  line-height: 2em;
+}
+
+#link_para_four {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+#link_para_four:hover {
+  color: black;
+  text-decoration: underline;
 }

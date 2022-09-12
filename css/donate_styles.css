@@ -1,3 +1,94 @@
-h1 {
+.container {
+  margin: -1em -1em;
+}
+
+.top_nav_bar {
+  background-color: #00bfff;
+  position: fixed;
+  width: 105%;
+  height: 7em;
+  border-bottom: 2px solid black;
+}
+.main_image {
   text-align: center;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+}
+.content {
+  padding-top: 2em;
+  text-align: center;
+}
+#sad_dog_image_donate {
+  width: 100%;
+  height: 30em;
+}
+
+ul {
+  display: inline;
+}
+
+#logo {
+  float: left;
+  width: 14em;
+  height: 5.9em;
+}
+
+#about_us_nav_link {
+  color: white;
+  text-decoration: none;
+}
+#about_us_nav_link:hover {
+  color: black;
+}
+
+#donate_nav_link {
+  color: white;
+  text-decoration: none;
+}
+#donate_nav_link:hover {
+  color: black;
+}
+
+.author_link {
+  color: white;
+}
+
+.content_container {
+  width: 90%;
+  height: auto;
+  margin: auto;
+  margin-top: 7em;
+  background-color: #13c3fe;
+  border-radius: 1em;
+  color: white;
+  padding-bottom: 2em;
+  margin-bottom: 6em;
+}
+#heading_content {
+  font-size: 5em;
+  font-weight: bold;
+  padding: 1em;
+}
+
+.donation_box {
+  width: 60%;
+  margin: auto;
+  background-color: #0c8fbb;
+  padding: 3.5em;
+  border-radius: 4em;
+  margin-bottom: 2em;
+}
+
+#text_how_much {
+  font-size: 4em;
+  margin-top: 1em;
+  justify-content: center;
+}
+
+.amount_of_money {
+  font-size: 2em;
+  display: block;
+}
+.submit {
+  margin-top: 2em;
 }
